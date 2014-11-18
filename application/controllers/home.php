@@ -19,6 +19,7 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->lang->load('cn', 'english');
 		$this->load->view('home/index');
 	}
 }

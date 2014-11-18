@@ -14,7 +14,7 @@
     <nav class="uk-navbar">
         <ul class="uk-navbar-nav">
             <li class="uk-active logo"><a href=""><i class=""></i> Huoju</a></li>
-            <li><a href=""><i class="uk-icon-home"></i> Home</a></li>
+            <li><a href=""><i class="uk-icon-home"></i> <?php echo lang('home_index') ?></a></li>
             <li><a href="">Events</a></li>
         </ul>
         <div class="uk-navbar-flip">
@@ -40,9 +40,9 @@
         <div class="uk-float-left">
         <span class="copyright uk-hidden-small"><i class="uk-icon-copyright"></i> Huoju. Built with <i class="uk-icon-heart uk-text-danger"></i></span>
         <a class="menu" href="">Language</a>
-        <a class="menu" href="">About Us</a>
-        <a class="menu" href="">FAQ</a>
-        <a class="menu" href="">Terms</a>
+        <a class="menu" href="about">About</a>
+        <a class="menu" href="faq">FAQ</a>
+        <a class="menu" href="terms">Terms</a>
         </div>
         <div class="uk-float-right">
             <i class="uk-icon-wechat"></i>

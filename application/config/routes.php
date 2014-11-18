@@ -40,6 +40,11 @@
 
 // $route['default_controller'] = "welcome";
 $route['default_controller'] = "home";
+
+$route['about'] = "other/about";
+$route['faq'] = "other/faq";
+$route['terms'] = "other/terms";
+
 $route['404_override'] = '';
 
 
