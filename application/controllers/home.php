@@ -19,8 +19,6 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->lang->load('cn', 'english');
-
 		$data['content'] = 'home/index';
 		$this->load->view('template/container', $data);
 	}
