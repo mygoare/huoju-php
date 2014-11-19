@@ -13,5 +13,7 @@
 <?php $this->load->view('template/header'); ?>
 <?php $this->load->view($content); ?>
 <?php $this->load->view('template/footer'); ?>
+<script src="<?php echo base_url('assets'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo base_url('assets'); ?>/bower_components/uikit/js/uikit.min.js"></script>
 </body>
 </html>
