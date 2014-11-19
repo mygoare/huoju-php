@@ -3,7 +3,8 @@
 class Other extends CI_Controller {
 	public function about()
 	{
-		$this->load->view('other/about');
+		$data['title'] = "about";
+		$this->load->view('other/about', $data);
 	}
 
 	public function faq()
