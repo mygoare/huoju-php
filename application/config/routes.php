@@ -41,6 +41,12 @@
 // $route['default_controller'] = "welcome";
 $route['default_controller'] = "home";
 
+// user
+$route['user/login']           = "user/login";
+$route['user/signup']          = "user/signup";
+$route['user/reset_password']  = "user/reset_password";
+
+// other
 $route['about'] = "other/about";
 $route['faq'] = "other/faq";
 $route['terms'] = "other/terms";
