@@ -7,10 +7,10 @@ class Home extends CI_Controller {
 	 *
 	 * Maps to the following URL
 	 * 		http://example.com/index.php/welcome
-	 *	- or -  
+	 *	- or -
 	 * 		http://example.com/index.php/welcome/index
 	 *	- or -
-	 * Since this controller is set as the default controller in 
+	 * Since this controller is set as the default controller in
 	 * config/routes.php, it's displayed at http://example.com/
 	 *
 	 * So any other public methods not prefixed with an underscore will
@@ -20,7 +20,9 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$this->lang->load('cn', 'english');
-		$this->load->view('home/index');
+
+		$data['content'] = 'home/index';
+		$this->load->view('template/container', $data);
 	}
 }
 
