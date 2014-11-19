@@ -18,3 +18,23 @@
         padding: 0 10px 0 0;
     }
 }
+
+// login
+
+
+
+// common
+.padding-15
+{
+    padding: 0 15px;
+}
+
+.select-language
+{
+    padding: 2px 4px;
+    &:hover
+    {
+        text-decoration: none;
+        background-color: #EBEBEB;
+    }
+}

@@ -1,1 +1,4 @@
-#<?php echo $title ?>
+<div class="uk-width-1-1 about uk-margin-large padding-15">
+<h3>About</h3>
+<p>这是我们发起的一个公益的小项目</p>
+</div>
