@@ -1,4 +1,4 @@
-<div class="uk-width-medium-1-2 uk-width-small-1-1 uk-container-center uk-margin-large padding-15">
+<div class="uk-width-medium-1-2 uk-width-small-1-1 uk-container-center uk-margin-large hj-padding-15">
 <h3>Forget your password?</h3>
 <form class="uk-form">
     <fieldset>

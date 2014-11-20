@@ -1,4 +1,4 @@
-<div class="uk-width-1-1 about uk-margin-large padding-15">
+<div class="uk-width-1-1 about uk-margin-large hj-padding-15">
 <h3>FAQ</h3>
 <ol>
     <li>我们是社会主义接班人</li>

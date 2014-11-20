@@ -1,4 +1,4 @@
-<div class="uk-width-1-1 about uk-margin-large padding-15">
+<div class="uk-width-1-1 about uk-margin-large hj-padding-15">
 <h3>Terms</h3>
 <p class="uk-text-bold">最后一次修改于 2014 年 1 月 1 号。</p>
 <p>
