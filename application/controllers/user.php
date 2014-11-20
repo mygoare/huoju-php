@@ -24,4 +24,17 @@ class User extends CI_Controller {
         $data['content'] = "user/reset_password";
         $this->load->view('template/container', $data);
     }
+
+    public function profile()
+    {
+        $data['content'] = "user/profile";
+        $this->load->view('template/container', $data);
+    }
+
+    public function settings()
+    {
+        $data['content'] = "user/settings";
+        $this->load->view('template/container', $data);
+    }
+
 }

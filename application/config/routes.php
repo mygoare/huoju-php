@@ -46,7 +46,7 @@ $route['user/login']           = "user/login";
 $route['user/signup']          = "user/signup";
 $route['user/reset_password']  = "user/reset_password";
 $route['~(:any)']              = "user/profile";
-$route['user/edit']            = "user/edit";
+$route['user/settings']        = "user/settings";
 
 // other
 $route['about'] = "other/about";
