@@ -1,6 +1,6 @@
     <footer class="footer uk-clearfix">
         <div class="uk-float-left">
-        <span class="copyright uk-hidden-small"><i class="uk-icon-copyright"></i> 2014 Huoju. Built with <i class="uk-icon-heart uk-text-danger"></i></span>
+        <span class="copyright hj-hidden-mini"><i class="uk-icon-copyright"></i> 2014 Huoju. Built with <i class="uk-icon-heart uk-text-danger"></i></span>
         <span class="uk-display-inline-block uk-position-relative" data-uk-dropdown="{mode:'click'}">
         <a class="menu" href="#"><?php echo lang('footer_language') ?></a>
             <div class="uk-dropdown uk-dropdown-up uk-dropdown-small">
