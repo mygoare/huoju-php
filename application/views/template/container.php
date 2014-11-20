@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <script type="text/javascript" src="<?php echo base_url('assets'); ?>/bower_components/pace/pace.min.js"></script>
     <link rel="stylesheet" href="<?php echo base_url('assets'); ?>/bower_components/pace/themes/blue/pace-theme-minimal.css" />
     <!-- UiKit Css -->
