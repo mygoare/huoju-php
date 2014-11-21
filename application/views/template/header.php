@@ -15,7 +15,7 @@
     </nav>
     </header>
     <div id="mobile-nav-bar" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
             <li><a href="<?php echo base_url(); ?>"><i class="uk-icon-home"></i> Home</a></li>
             <li><a href="<?php echo base_url(); ?>events"><i class="uk-icon-calendar"></i> Events</a></li>
