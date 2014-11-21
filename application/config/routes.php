@@ -46,11 +46,16 @@ $route['user/login']           = "user/login";
 $route['user/signup']          = "user/signup";
 $route['user/reset_password']  = "user/reset_password";
 $route['~(:any)']              = "user/profile";
-$route['user/edit']            = "user/edit";
+$route['user/settings']        = "user/settings";
+
+// events & venues
+$route['events'] = "event/table";
+
+$route['venues'] = "venue/table";
 
 // other
 $route['about'] = "other/about";
-$route['faq'] = "other/faq";
+$route['faq']   = "other/faq";
 $route['terms'] = "other/terms";
 
 $route['404_override'] = '';

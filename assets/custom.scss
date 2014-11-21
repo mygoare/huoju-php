@@ -44,3 +44,18 @@
         background-color: #EBEBEB;
     }
 }
+
+@media (max-width: 479px)
+{
+    .uk-hidden-mini
+    {
+        display: none !important;
+    }
+}
+@media (min-width: 480px)
+{
+    .uk-visible-mini
+    {
+        display: none !important;
+    }
+}
