@@ -19,22 +19,6 @@
     }
 }
 
-// login
-
-
-
-// common
-.hj-padding-15
-{
-    padding: 0 15px;
-}
-@media (max-width: 479px) {
-    .hj-hidden-mini
-    {
-        display: none !important;
-    }
-}
-
 .select-language
 {
     padding: 2px 4px;
@@ -43,6 +27,16 @@
         text-decoration: none;
         background-color: #EBEBEB;
     }
+}
+
+// login
+
+
+
+// common
+.hj-padding-15
+{
+    padding: 0 15px;
 }
 
 @media (max-width: 479px)
