@@ -12,6 +12,7 @@ class Debug extends CI_Controller {
         $this->load->library('mailgun');
 
         $re = $this->mailgun->welcome('mygoare@163.com');
-        var_dump($re);
+
+        echo $re->http_response_code;
     }
 }
