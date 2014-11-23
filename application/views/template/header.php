@@ -4,7 +4,6 @@
             <li class="uk-active logo"><a href="<?php echo base_url(); ?>"><i class=""></i> Huoju</a></li>
             <li class="uk-hidden-mini"><a href="<?php echo base_url(); ?>"><i class="uk-icon-home"></i> <?php echo lang('header_index') ?></a></li>
             <li class="uk-hidden-mini"><a href="<?php echo base_url(); ?>events"><i class="uk-icon-calendar"></i> Events</a></li>
-            <li class="uk-hidden-mini"><a href="<?php echo base_url(); ?>venues"><i class="uk-icon-map-marker"></i> Venues</a></li>
         </ul>
         <div class="uk-navbar-flip">
             <ul class="uk-navbar-nav">
@@ -19,7 +18,6 @@
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
             <li><a href="<?php echo base_url(); ?>"><i class="uk-icon-home"></i> Home</a></li>
             <li><a href="<?php echo base_url(); ?>events"><i class="uk-icon-calendar"></i> Events</a></li>
-            <li><a href="<?php echo base_url(); ?>venues"><i class="uk-icon-map-marker"></i> Venues</a></li>
             <li class="uk-nav-divider"></li>
             <li><a href="<?php echo base_url(); ?>~mygoare"><i class="uk-icon-user"></i> Profile</a></li>
             <li><a href="<?php echo base_url(); ?>user/settings"><i class="uk-icon-cog"></i> Settings</a></li>
