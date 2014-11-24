@@ -51,8 +51,6 @@ $route['user/settings']        = "user/settings";
 // events & venues
 $route['events'] = "event/table";
 
-$route['venues'] = "venue/table";
-
 // other
 $route['about'] = "other/about";
 $route['faq']   = "other/faq";
