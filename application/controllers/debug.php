@@ -15,4 +15,14 @@ class Debug extends CI_Controller {
 
         echo $re->http_response_code;
     }
+
+    public function get_config()
+    {
+        echo $this->config->item('base_url');
+    }
+
+    public function testDb()
+    {
+        $this->load->database();
+    }
 }

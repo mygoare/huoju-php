@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://192.168.3.229/huoju/';
+$config['base_url']	= HUOJU_BASEURL;
 
 /*
 |--------------------------------------------------------------------------
